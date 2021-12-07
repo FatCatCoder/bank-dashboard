@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function StatsBoard() {
     return (
-        <div className='container m-auto'>
+        <div className='container grid m-auto'>
             <div class="border stats border-base-300">
               <div class="stat">
                 <div class="stat-title">Checkings Account balance</div> 
@@ -31,7 +31,17 @@ export default function StatsBoard() {
                   <button class="btn btn-sm btn-neutral">Manage</button>
                 </div>
               </div>
-            </div> 
+              <div class="stat">
+                
+                <div class="stat-value">Quick Help</div>
+                <div class="stat-value text-gray-400 text-lg font-normal">Looking for assistance?</div>  
+                <div class="stat-actions">
+                  <button class="btn btn-sm btn-error">HELP</button> 
+                  <button class="btn btn-sm bg-red-warn hover:bg-red-warn">Emergency</button>
+                </div>
+              </div>
+            </div>
+             
 
             <div class="w-full mt-2 border stats border-base-300">
               <div class="stat">

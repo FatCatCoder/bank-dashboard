@@ -15,17 +15,28 @@ export default function Dashboard() {
             <div class="divider col-span-12"></div>
             <InfoAlert className={'col-span-6'} heading={'Tip'} text={'Setting up your auto-payments only takes a moment with our new Pay-dues helper!'} />
 
-            <div className="col-span-12">
+            <div className="col-span-9">
                 <StatsBoard />
             </div>
 
-            <Collapse className={"col-span-12"} heading={"Recent Transactions"}>
-                <TransactionCard date={new Date} amount={-12.29} account={'Checkings'}/>
-                <TransactionCard date={new Date} amount={-32.46} account={'Checkings'}/>
-                <TransactionCard date={new Date} amount={15.00} account={'Savings'}/>
-                <TransactionCard date={new Date} amount={-300.00} account={'Credit'}/>
-                
-            </Collapse>
+            <div className="flex flex-col">
+                <div className="col-span-3">
+                    <Collapse className={"col-span-12"} heading={"Recent Transactions"}>
+                        <TransactionCard date={new Date} amount={-12.29} account={'Checkings'}/>
+                        <TransactionCard date={new Date} amount={-32.46} account={'Checkings'}/>
+                        <TransactionCard date={new Date} amount={15.00} account={'Savings'}/>
+                        <TransactionCard date={new Date} amount={-300.00} account={'Credit'}/>
+                    </Collapse>
+                </div>
+                <div className="col-span-3">
+                    <Collapse className={"col-span-12"} heading={"Action Items"}>
+                        <TransactionCard date={new Date} amount={-12.29} account={'Checkings'}/>
+                        <TransactionCard date={new Date} amount={-32.46} account={'Checkings'}/>
+                        <TransactionCard date={new Date} amount={15.00} account={'Savings'}/>
+                        <TransactionCard date={new Date} amount={-300.00} account={'Credit'}/>
+                    </Collapse>
+                </div>
+            </div>
 
         </div>
     )

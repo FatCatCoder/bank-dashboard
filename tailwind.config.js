@@ -13,7 +13,13 @@ module.exports = {
       ]
     },},
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+          red: {
+            "warn": "#FF0000"
+          }
+        }
+      },
     },
     variants: {},
     plugins: [

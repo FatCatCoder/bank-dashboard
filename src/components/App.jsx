@@ -7,11 +7,11 @@ import Dashboard from '../pages/Dashboard'
 import Footer from './Footer'
 import Header from './Header'
 import Sidebar from './Sidebar'
-import StatsBoard from './StatsBoard'
+
 
 export default function App() {
     return (
-        <div className='min-w-full min-h-screen'>
+        <div className='grid min-w-full min-h-screen'>
             <Header />
             
             <div className='container grid grid-cols-12'>

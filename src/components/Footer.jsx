@@ -5,7 +5,6 @@ import { faCat } from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
     return (
-        <div>
             <footer class="p-10 bottom-0 footer bg-base-200 text-base-content">
                 <div>
                     <FontAwesomeIcon icon={faCat} className='text-4xl'/>
@@ -35,6 +34,5 @@ export default function Footer() {
                     <a class="link link-hover">Cookie policy</a>
                 </div>
             </footer>
-        </div>
     )
 }
