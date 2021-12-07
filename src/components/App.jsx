@@ -11,7 +11,7 @@ import StatsBoard from './StatsBoard'
 
 export default function App() {
     return (
-        <div className='w-auto h-auto'>
+        <div className='min-w-full min-h-screen'>
             <Header />
             
             <div className='container grid grid-cols-12'>

@@ -6,7 +6,7 @@ import { faCat } from '@fortawesome/free-solid-svg-icons'
 export default function Footer() {
     return (
         <div>
-            <footer class="p-10 bottom-0 absolute footer bg-base-200 text-base-content">
+            <footer class="p-10 bottom-0 footer bg-base-200 text-base-content">
                 <div>
                     <FontAwesomeIcon icon={faCat} className='text-4xl'/>
                     <p>FatCat Industries Banking Ltd.
@@ -16,8 +16,8 @@ export default function Footer() {
                 </div>
                 <div>
                     <span class="footer-title">Services</span>
-                    <a class="link link-hover">Branding</a>
-                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Accounting</a>
+                    <a class="link link-hover">Loans</a>
                     <a class="link link-hover">Marketing</a>
                     <a class="link link-hover">Advertisement</a>
                 </div>
