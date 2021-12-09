@@ -11,10 +11,10 @@ import Sidebar from './Sidebar'
 
 export default function App() {
     return (
-        <div className='grid min-w-full min-h-screen'>
-            <Header />
+        <div className='w-screen max-w-screen min-h-screen'>
+            <Header className={""}/>
                
-            <div className='container grid grid-cols-12'>
+            {/* <div className='grid grid-cols-12'>
 
                 <div className="col-span-2">
                     <Sidebar />
@@ -26,7 +26,7 @@ export default function App() {
                 
             </div>
 
-            <Footer />
+            <Footer /> */}
         </div>
     )
 }

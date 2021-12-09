@@ -5,7 +5,7 @@ import { faCat } from '@fortawesome/free-solid-svg-icons/index'
 
 export default function Footer() {
     return (
-            <footer class="p-10 bottom-0 footer bg-base-200 text-base-content">
+            <footer class="p-10 bottom-0 footer bg-base-300 text-base-content">
                 <div>
                     <FontAwesomeIcon icon={faCat} className='text-4xl'/>
                     <p>FatCat Industries Banking Ltd.

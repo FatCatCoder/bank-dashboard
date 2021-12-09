@@ -6,7 +6,7 @@ import { faHome, faMoneyCheckAlt, faPiggyBank, faChartPie, faEllipsisH } from '@
 export default function Sidebar() {
     return (
     <div class="py-4 w-32 artboard artboard-demo bg-base-200">
-        <ul class="menu w-24 py-3 mx-auto shadow-lg bg-base-100 rounded-box">
+        <ul class="menu flex-row md:flex-col w-100 md:w-24 py-3 mx-auto shadow-lg bg-base-100 rounded-box">
             <li>
                 <a className='flex flex-col'>
                     <FontAwesomeIcon icon={faHome} className='inline-block w-6 h-6 stroke-current m-auto' />

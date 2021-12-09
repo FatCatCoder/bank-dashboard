@@ -20,17 +20,17 @@ export default function UserBox({className}) {
                             <FontAwesomeIcon icon={faUser} className='m-auto text-3xl'/>
                         </a>
                     </li> 
-                    <li>
+                    <li className=''>
                         <a>
                             Settings
                         </a>
                     </li> 
-                    <li>
+                    <li className=''>
                         <a>
                             Logout
                         </a>
                     </li>
-                    <li>
+                    <li className=''>
                         <a>
                             <input data-toggle-theme="dracula,light" data-act-class="checked" onClick={() => setTheme(localStorage.getItem('theme'))} type="checkbox" checked={theme === 'light'} class="toggle" />
                             {/* <label class="switch">
