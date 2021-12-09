@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCat } from '@fortawesome/free-solid-svg-icons'
+import { faCat } from '@fortawesome/free-solid-svg-icons/index'
 
 export default function Footer() {
     return (

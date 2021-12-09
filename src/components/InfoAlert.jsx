@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell } from '@fortawesome/free-regular-svg-icons'
+import { faBell } from '@fortawesome/free-regular-svg-icons/index'
 
 export default function InfoAlert(props) {
     return (

@@ -13,7 +13,7 @@ export default function App() {
     return (
         <div className='grid min-w-full min-h-screen'>
             <Header />
-            
+               
             <div className='container grid grid-cols-12'>
 
                 <div className="col-span-2">

@@ -2,7 +2,7 @@ import React from 'react'
 import UserBox from './UserBox'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUniversity } from '@fortawesome/free-solid-svg-icons'
+import { faUniversity } from '@fortawesome/free-solid-svg-icons/index'
 
 export default function Header() {
     return (

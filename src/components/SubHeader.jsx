@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons'
+import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons/index'
 
 /**
  * TODO:

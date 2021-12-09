@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faMoneyCheckAlt, faPiggyBank, faChartPie, faEllipsisH } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faMoneyCheckAlt, faPiggyBank, faChartPie, faEllipsisH } from '@fortawesome/free-solid-svg-icons/index'
 
 export default function Sidebar() {
     return (
