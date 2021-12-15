@@ -12,7 +12,7 @@ export default function InfoAlert(props) {
                         <FontAwesomeIcon icon={faBell} />
                         {props.heading || 'Info'}
                     </h4>
-                    <p className="text-sm text-base-content text-opacity-60">{props.text || 'Hey there!'}</p>
+                    <p className={`${props.textSize || 'text-sm'} text-base-content text-opacity-60`}>{props.text || 'Hey there!'}</p>
                 </div>  
             </div>
         </div>

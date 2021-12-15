@@ -1,49 +1,49 @@
 import React from 'react'
 
-export default function StatsBoard() {
+export default function StatsBoard(props) {
     return (
-        <div className='container grid m-auto'>
-            <div class="border stats border-base-300">
-              <div class="stat">
-                <div class="stat-title">Checkings Account balance</div> 
-                <div class="stat-value">$921.56</div>
-                <div class="stat-value text-gray-400 text-lg font-normal">Pending: $894.20</div>  
-                <div class="stat-actions">
-                  <button class="btn btn-sm btn-success">Add</button>
-                  <button class="btn btn-sm btn-success">Manage</button>
+        <div className={`${props.className || props.class} grid grid-cols-12`}>
+            <div class="col-span-12 grid grid-cols-12 grid-flow-row border stats border-base-300">
+              <div class="stat border-b border-r w-100 p-2 md:p-4 col-span-6 lg:col-span-3">
+                <div class="stat-title text-sm lg:text-md">Checkings Account</div> 
+                <div class="stat-value text-2xl lg:text-3xl">$921.56</div>
+                <div class="stat-value text-gray-400 text-sm lg:text-lg font-normal">Pending: $894.20</div>  
+                <div class="stat-actions flex flex-row gap-1">
+                  <button class="btn btn-sm text-xs lg:text-sm btn-success">Add</button>
+                  <button class="btn btn-sm text-xs lg:text-sm btn-success">Manage</button>
                 </div>
               </div> 
-              <div class="stat">
-                <div class="stat-title">Savings Account balance</div> 
-                <div class="stat-value">$89,400</div>
-                <div class="stat-value text-gray-400 text-lg font-normal">Pending: $89,400</div>  
-                <div class="stat-actions">
-                  <button class="btn btn-sm btn-primary">Transfer</button> 
-                  <button class="btn btn-sm btn-primary">Manage</button>
+              <div class="stat border-b border-r w-100 p-2 md:p-4 col-span-6 lg:col-span-3">
+                <div class="stat-title text-sm lg:text-md">Savings Account</div> 
+                <div class="stat-value text-2xl lg:text-3xl">$89,400</div>
+                <div class="stat-value text-gray-400 text-sm lg:text-lg font-normal">Pending: $89,400</div>  
+                <div class="stat-actions flex flex-row gap-1">
+                  <button class="btn btn-sm text-xs lg:text-sm btn-primary">Move</button> 
+                  <button class="btn btn-sm text-xs lg:text-sm btn-primary">Manage</button>
                 </div>
               </div>
-              <div class="stat">
-                <div class="stat-title">Credit Account balance</div> 
-                <div class="stat-value">$1,357.64</div>
-                <div class="stat-value text-gray-400 text-lg font-normal">Max: $2,000</div>  
-                <div class="stat-actions">
-                  <button class="btn btn-sm btn-neutral">Pay</button> 
-                  <button class="btn btn-sm btn-neutral">Manage</button>
+              <div class="stat border-b border-r w-100 p-2 md:p-4 col-span-6 lg:col-span-3">
+                <div class="stat-title text-sm lg:text-md">Credit Account</div> 
+                <div class="stat-value text-2xl lg:text-3xl">$1,357.64</div>
+                <div class="stat-value text-gray-400 text-sm lg:text-lg font-normal">Max: $2,000</div>  
+                <div class="stat-actions flex flex-row gap-1">
+                  <button class="btn btn-sm text-xs lg:text-sm btn-neutral">Pay</button> 
+                  <button class="btn btn-sm text-xs lg:text-sm btn-neutral">Manage</button>
                 </div>
               </div>
-              <div class="stat">
-                
-                <div class="stat-value">Quick Help</div>
-                <div class="stat-value text-gray-400 text-lg font-normal">Looking for assistance?</div>  
-                <div class="stat-actions">
-                  <button class="btn btn-sm btn-error">HELP</button> 
-                  <button class="btn btn-sm bg-red-warn hover:bg-red-warn">Emergency</button>
+              <div class="stat border-b border-r w-100 p-2 md:p-4 col-span-6 lg:col-span-3">
+              <div class="stat-title text-sm lg:text-md">Help Desk</div>
+                <div class="stat-value text-2xl lg:text-3xl">Quick Help</div>
+                <div class="stat-value text-gray-400 text-sm lg:text-lg font-normal">Looking for assistance?</div>  
+                <div class="stat-actions flex flex-row gap-1">
+                  <button class="btn btn-sm text-xs lg:text-sm btn-error">HELP</button> 
+                  <button class="btn btn-sm text-xs lg:text-sm bg-red-warn hover:bg-red-warn border-none">Lost Card</button>
                 </div>
               </div>
             </div>
              
 
-            <div class="w-full mt-2 border stats border-base-300">
+            <div class="col-span-12 w-full mt-2 border stats border-base-300">
               <div class="stat">
                 <div class="stat-figure text-primary">
                   <button class="btn loading btn-circle btn-lg bg-base-200 btn-ghost"></button>
