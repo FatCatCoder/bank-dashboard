@@ -7,7 +7,7 @@ import Dashboard from '../pages/Dashboard'
 // components
 import Footer from './Footer'
 import Header from './Header'
-import Sidebar from './Sidebar'
+import Navbar from './Navbar'
 
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
             <div className='grid grid-cols-12'>
 
                 <div className="col-span-12 md:col-span-2 2xl:col-span-1">
-                    <Sidebar />
+                    <Navbar />
                 </div>
 
                 <div className="col-span-12 md:col-span-9 2xl:col-span-10">

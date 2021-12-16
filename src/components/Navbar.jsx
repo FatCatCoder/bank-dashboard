@@ -3,10 +3,10 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faMoneyCheckAlt, faPiggyBank, faChartPie, faEllipsisH } from '@fortawesome/free-solid-svg-icons/index'
 
-export default function Sidebar() {
+export default function Navbar() {
     return (
-    <div class="py-1 md:py-4 fixed bottom-0 md:relative md:bottom-auto m-auto w-screen md:w-32 artboard artboard-demo bg-base-200">
-        <ul class="menu flex-row md:flex-col w-screen md:w-24 md:py-3 mx-auto shadow-lg bg-base-100 rounded-box">
+    <div class="py-1 md:py-4 fixed bottom-0 md:relative md:bottom-auto m-auto w-screen md:w-32 artboard artboard-demo bg-base-200 bg-opacity-100 z-50">
+        <ul class="menu flex-row md:flex-col w-screen md:w-24 md:py-3 mx-auto shadow-lg bg-base-100 rounded-box bg-opacity-100 z-50">
             <li className='w-1/5 md:w-auto'>
                 <a className='flex flex-col rounded-box'>
                     <FontAwesomeIcon icon={faHome} className='inline-block w-6 h-6 text-md stroke-current m-auto' />
