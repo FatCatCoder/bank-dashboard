@@ -7,7 +7,7 @@ export default function Collapse(props) {
             <div class="collapse-title text-lg lg:text-xl font-medium">
                 {props.heading}
             </div> 
-            <div class={`${props.innerClassName} collapse-content p-2 flex flex-col`}>
+            <div class={`${props.contentClassName} collapse-content grid-cols-12 grid-rows-1 grid p-0`}>
                 {props.children}
             </div>
         </div> 

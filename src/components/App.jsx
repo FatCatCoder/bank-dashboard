@@ -24,7 +24,7 @@ export default function App() {
                     <Navbar />
                 </div>
 
-                <div className="col-span-12 md:col-span-9 2xl:col-span-10">
+                <div className="col-span-12 md:col-span-10 2xl:col-span-10 m-2">
                     <Dashboard />
                 </div>
                 

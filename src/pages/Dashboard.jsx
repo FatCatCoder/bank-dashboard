@@ -20,16 +20,16 @@ export default function Dashboard() {
                 <StatsBoard />
             </div>
 
-            <div className="col-span-12 md:col-span-3 flex flex-col">
+            <div className="col-span-12 md:col-span-3">
 
-                    <Collapse className={"col-span-12"} heading={"Recent Transactions"} innerClassName={''}>
+                    <Collapse className={"col-span-12"} heading={"Recent Transactions"} contentClassName={''}>
                         <TransactionCard date={new Date} amount={-12.29} account={'Checkings'}/>
                         <TransactionCard date={new Date} amount={-32.46} account={'Checkings'}/>
                         <TransactionCard date={new Date} amount={15.00} account={'Savings'}/>
                         <TransactionCard date={new Date} amount={-300.00} account={'Credit'}/>
                     </Collapse>
 
-                    <Collapse className={"col-span-12"} heading={"Action Items"} innerClassName={''}>
+                    <Collapse className={"col-span-12"} heading={"Action Items"} contentClassName={''}>
                         <TransactionCard date={new Date} amount={-12.29} account={'Checkings'}/>
                         <TransactionCard date={new Date} amount={-32.46} account={'Checkings'}/>
                         <TransactionCard date={new Date} amount={15.00} account={'Savings'}/>
