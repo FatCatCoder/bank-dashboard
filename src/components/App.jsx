@@ -15,7 +15,7 @@ export default function App() {
         themeChange(false)
     }, [])
     return (
-        <div className='max-w-screen min-h-screen mb-20 md:mb-0'>
+        <div className='grid max-w-screen min-h-screen'>
             <Header className={""}/>
                
             <div className='grid grid-cols-12'>
@@ -30,7 +30,7 @@ export default function App() {
                 
             </div>
 
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
