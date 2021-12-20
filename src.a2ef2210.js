@@ -64,4 +64,4 @@ var c,a=arguments[3];function f(c){return(f="function"==typeof Symbol&&"symbol"=
 },{"tailwindcss/base":"rDX9","tailwindcss/components":"rDX9","tailwindcss/utilities":"rDX9"}],"KqTk":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./components/App"));function u(e){return e&&e.__esModule?e:{default:e}}require("./index.css");var n=document.getElementById("app");r.default.render(e.default.createElement(t.default,null),n);
 },{"react":"ccIB","react-dom":"x9tB","./components/App":"DurM","./index.css":"DqQh"}]},{},["KqTk"], null)
-//# sourceMappingURL=/src.a2ef2210.js.map
+//# sourceMappingURL=bank-dashboard/src.a2ef2210.js.map
